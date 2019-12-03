@@ -1,0 +1,15 @@
+<h1> Welcome to My Uber App </h1>
+<h3> List of Drivers </h3>
+
+<ul>
+<% @drivers.each do |drive| %>
+<li>
+<%= link_to drive.name , driver_path(drive)%>
+<% end %>
+</li>
+</ul>
+
+<%= link_to "New Driver" ,  new_driver_path %>
+
+
+

@@ -17,9 +17,9 @@ chine = User.create(name:"Chine")
 trevor = User.create(name:"Trevor")
 
 jasur = Driver.create(name:"Jasur" , rating: 5 , car:"Toyota")
-will = Driver.create(name:"Will" , rating: 5 , car:"Honda")
-emily = Driver.create(name:"Emily" , rating: 5 , car:"Fiat")
-sebastian = Driver.create(name:"Sebastian" , rating: 5 , car:"Chevy")
+will = Driver.create(name:"Will" , rating: 6 , car:"Honda")
+emily = Driver.create(name:"Emily" , rating: 10 , car:"Fiat")
+sebastian = Driver.create(name:"Sebastian" , rating: 3 , car:"Chevy")
 
 
 ride1 = Ride.create(user:paul , driver:jasur)
